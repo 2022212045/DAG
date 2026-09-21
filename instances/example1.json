@@ -1,0 +1,26 @@
+{
+  "name": "example1",
+  "tasks": [
+    {"vid": "v1",  "ctype": 2, "wcet": 8, "is_common": true},
+    {"vid": "v2",  "ctype": 1, "wcet": 8},
+    {"vid": "v3",  "ctype": 2, "wcet": 2},
+    {"vid": "v4",  "ctype": 1, "wcet": 4},
+    {"vid": "v5",  "ctype": 2, "wcet": 2},
+    {"vid": "v6",  "ctype": 2, "wcet": 3},
+    {"vid": "v7",  "ctype": 2, "wcet": 4},
+    {"vid": "v8",  "ctype": 1, "wcet": 7},
+    {"vid": "v9",  "ctype": 1, "wcet": 7},
+    {"vid": "v10", "ctype": 1, "wcet": 3, "is_common": true}
+  ],
+  "edges": [
+    ["v1", "v2"], ["v1", "v3"], ["v1", "v4"], ["v1", "v5"], ["v1", "v8"],
+    ["v3", "v9"],
+    ["v4", "v6"], ["v4", "v9"],
+    ["v5", "v7"],
+    ["v2", "v10"], ["v6", "v10"], ["v7", "v10"], ["v8", "v10"], ["v9", "v10"]
+  ],
+  "core_counts": {
+    "1": 2,
+    "2": 2
+  }
+}

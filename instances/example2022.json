@@ -1,0 +1,48 @@
+{
+  "name": "figure_instance_17",
+  "tasks": [
+    {"vid": "v0",  "ctype": 1, "wcet": 2},
+    {"vid": "v1",  "ctype": 1, "wcet": 2},
+    {"vid": "v2",  "ctype": 2, "wcet": 3},
+    {"vid": "v3",  "ctype": 1, "wcet": 2},
+    {"vid": "v4",  "ctype": 1, "wcet": 1},
+    {"vid": "v5",  "ctype": 1, "wcet": 2},
+    {"vid": "v6",  "ctype": 2, "wcet": 2},
+    {"vid": "v7",  "ctype": 1, "wcet": 1},
+    {"vid": "v8",  "ctype": 2, "wcet": 2},
+    {"vid": "v9",  "ctype": 2, "wcet": 1},
+    {"vid": "v10", "ctype": 1, "wcet": 1},
+    {"vid": "v11", "ctype": 1, "wcet": 2},
+    {"vid": "v12", "ctype": 1, "wcet": 2},
+    {"vid": "v13", "ctype": 1, "wcet": 2},
+    {"vid": "v14", "ctype": 2, "wcet": 1},
+    {"vid": "v15", "ctype": 2, "wcet": 1},
+    {"vid": "v16", "ctype": 1, "wcet": 1}
+  ],
+  "edges": [
+    ["v0", "v1"],
+    ["v0", "v2"],
+    ["v0", "v3"],
+    ["v0", "v4"],
+    ["v1", "v5"],
+    ["v1", "v6"],
+    ["v2", "v7"],
+    ["v3", "v7"],
+    ["v4", "v8"],
+    ["v5", "v9"],
+    ["v6", "v10"],
+    ["v7", "v11"],
+    ["v8", "v12"],
+    ["v9", "v13"],
+    ["v10", "v15"],
+    ["v11", "v14"],
+    ["v12", "v16"],
+    ["v13", "v15"],
+    ["v14", "v16"],
+    ["v15", "v16"]
+  ],
+  "core_counts": {
+    "1": 2,
+    "2": 2
+  }
+}
